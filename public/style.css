@@ -31,6 +31,15 @@ h3 {
   font-weight: bold;
 }
 
+a:link, a:visited{
+  text-decoration: none; 
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
 form {
   margin-bottom: 25px;
   padding: 15px;
@@ -65,10 +74,6 @@ button:active {
 ul {
   list-style-type: none;
   padding: 0;
-}
-
-ol {
-  
 }
 
 .list {
@@ -179,4 +184,15 @@ th {
 
 .center {
   text-align: center;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  width: 60px;
+}
+
+.clearBtn {
+  color: white;
 }
